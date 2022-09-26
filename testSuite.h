@@ -1,8 +1,21 @@
 //
-// Copyright (c) 2021 Brett g Porter. All Rights Reserved.
+// Copyright (c) 2022 Brett g Porter. All Rights Reserved.
 //
 
 #pragma once
+
+/*
+BEGIN_JUCE_MODULE_DECLARATION
+ID:               testSuite
+vendor:           bgporter
+version:          1.0.0
+name:             TestSuite
+description:      An extension to JUCE's UnitTest system.
+website:          https://github.com/bgporter/testSuite
+license:          MIT
+dependencies:     juce_core
+END_JUCE_MODULE_DECLARATION
+ */
 
 #include <juce_core/juce_core.h>
 
