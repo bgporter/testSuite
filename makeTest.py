@@ -123,7 +123,7 @@ def AddTestInclude(className):
             f.write(kCppTemplate.format(className))
         return True
     except FileNotFoundError:
-        print ("ERROR: {} not found".format(fullPath))
+        print ("ERROR: source for {} not found".format(className))
         return False
 
 def Usage():
